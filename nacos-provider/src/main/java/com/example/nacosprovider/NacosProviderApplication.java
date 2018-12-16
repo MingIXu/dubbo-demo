@@ -1,13 +1,13 @@
-package com.example.nacosconsumer;
+package com.example.nacosprovider;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class NacosConsumerApplication {
+public class NacosProviderApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(NacosConsumerApplication.class, args);
+        SpringApplication.run(NacosProviderApplication.class, args);
     }
 
 }

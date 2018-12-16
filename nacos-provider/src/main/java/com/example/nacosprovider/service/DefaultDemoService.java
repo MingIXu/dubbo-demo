@@ -1,4 +1,4 @@
-package com.example.nacosconsumer.service;
+package com.example.nacosprovider.service;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.example.api.DemoService;

@@ -1,4 +1,4 @@
-package com.example.nacosconsumer;
+package com.example.nacosprovider;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
