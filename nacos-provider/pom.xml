@@ -8,9 +8,9 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>provider</artifactId>
+    <artifactId>nacos-provider</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>provider</name>
+    <name>nacos-provider</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -23,27 +23,37 @@
             <artifactId>api</artifactId>
             <version>${project.version}</version>
         </dependency>
-        <!-- Spring Boot dependencies -->
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <!-- Dubbo dependency -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo</artifactId>
+            <version>2.6.5</version>
+        </dependency>
+
+        <!-- Dubbo Nacos registry dependency -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo-registry-nacos</artifactId>
+            <version>0.0.2</version>
+        </dependency>
+
+        <!-- Keep latest Nacos client version -->
+        <dependency>
+            <groupId>com.alibaba.nacos</groupId>
+            <artifactId>nacos-client</artifactId>
+            <version>[0.6.1,)</version>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alibaba.boot</groupId>
-            <artifactId>dubbo-spring-boot-starter</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>dubbo</artifactId>
-            <version>2.6.5</version>
         </dependency>
     </dependencies>
 

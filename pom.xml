@@ -19,6 +19,8 @@
     </parent>
 
     <modules>
+        <module>nacos-consumer</module>
+        <module>nacos-provider</module>
         <module>consumer</module>
         <module>provider</module>
         <module>api</module>
